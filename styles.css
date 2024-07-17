@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("./camp.jpg");
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+div {
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+form {
+    display: block;
+    border: 2px solid black;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px 0px 20px 0px;
+    margin-top: 50px;
+}
+
+.form_divs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+label {
+    width: 30%;
+    text-align: left;
+    padding: 15px 0;
+}
+
+input, select {
+    width: 60%;
+    padding: 15px;
+    margin-left: 10px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: midnightblue;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
